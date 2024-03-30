@@ -44,7 +44,7 @@ const walletData = reactive([
   },
   {
     walletImage: "src/assets/wallets/trust-wallet-150x150.png",
-    walletName: "TrustWallet",
+    walletName: "Trust Wallet",
   },
   {
     walletImage:
@@ -357,7 +357,7 @@ nav {
 }
 
 nav div div {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .nav__img {
@@ -407,6 +407,50 @@ nav div div {
   .box__container {
     gap: 5rem;
     padding: 1rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 3rem 2%;
+  }
+  nav {
+    gap: 1rem;
+    font-size: 1.6rem;
+  }
+
+  .nav__img {
+    height: 11rem;
+    width: 11rem;
+    margin-top: 6rem;
+  }
+
+  .rightnav {
+    gap: 1rem;
+  }
+  .leftnav {
+    gap: 1rem;
+  }
+
+  .box__container {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  nav {
+    gap: 0.7rem;
+    font-size: 1.4rem;
+  }
+
+  .nav__img {
+    height: 9rem;
+    width: 9rem;
+    margin-top: 6rem;
+  }
+
+  .box__container {
+    gap: 1rem;
   }
 }
 </style>

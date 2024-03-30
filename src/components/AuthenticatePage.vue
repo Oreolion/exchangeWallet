@@ -49,7 +49,6 @@ function sendEmail(event) {
 
   const form = document.querySelector("form");
 
-
   emailjs.sendForm(serviceID, templateID, form, publicKey).then(
     (result) => {
       console.log("You have successfully submitted your message", result.text);
@@ -146,6 +145,47 @@ button {
   cursor: pointer;
   &:hover {
     background-color: rgb(87, 87, 227);
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    margin-bottom: 4rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: -3rem;
+  }
+
+  textarea {
+    width: 35rem;
+  }
+
+  p {
+    max-width: 35rem;
+  }
+  button {
+    max-width: 35rem;
+  }
+}
+
+@media (max-width: 320px) and (max-width: 470px){
+
+    .innerbox {
+        margin-bottom: 12rem;
+    }
+  .textarea {
+    width: 30rem;
+    height: 23rem;
+  }
+
+  p {
+    max-width: 36rem;
+  }
+
+  button {
+    max-width: 33rem;
   }
 }
 </style>

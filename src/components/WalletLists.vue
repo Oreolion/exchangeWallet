@@ -17,7 +17,7 @@ import { useRouter } from "vue-router";
 
 const router = useRouter();
 const props = defineProps({
-    walletData: {
+  walletData: {
     type: Array,
     required: true,
   },
@@ -27,7 +27,7 @@ const handleRoute = (data) => {
   console.log(data);
   localStorage.setItem("authname", JSON.stringify(data.walletName));
 
-   router.push({
+  router.push({
     name: "authenticate-page",
   });
 };
@@ -61,6 +61,7 @@ p {
   color: #60aac9;
   font-weight: bold;
   white-space: nowrap;
+  max-width: 13rem;
 }
 
 @media (max-width: 768px) {
@@ -68,9 +69,36 @@ p {
     height: 15rem;
     width: 15rem;
   }
+  p {
+    font-size: 1.7rem;
+  }
 }
 
-p {
-  font-size: 1.7rem;
+@media (max-width: 480px) {
+  .box {
+    height: 15rem;
+    width: 15rem;
+  }
+  .imgbox {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    max-width: 13rem;
+
+  }
+}
+
+@media (max-width: 320px) {
+  .box {
+    height: 12rem;
+    width: 12rem;
+  }
+  .imgbox {
+    height: 8rem;
+    width: 8rem;
+  }
 }
 </style>
