@@ -356,6 +356,10 @@ nav {
   font-size: 2.5rem;
 }
 
+nav div div {
+    cursor: pointer;
+}
+
 .nav__img {
   height: 18rem;
   width: 18rem;

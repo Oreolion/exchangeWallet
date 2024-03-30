@@ -29,7 +29,6 @@ const handleRoute = (data) => {
 
    router.push({
     name: "authenticate-page",
-    params: { walletName: data },
   });
 };
 </script>
