@@ -425,6 +425,10 @@ nav div div {
     margin-top: 6rem;
   }
 
+  h1 {
+    font-size: 3rem;
+  }
+
   .rightnav {
     gap: 1rem;
   }
