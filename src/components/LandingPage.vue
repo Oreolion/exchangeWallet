@@ -30,8 +30,6 @@ import { reactive } from "vue";
 import WalletLists from "./WalletLists.vue";
 const images = import.meta.glob("../assets/wallets/*", { eager: true });
 
-console.log(images);
-
 const walletData = reactive([
   {
     walletImage: images["../assets/wallets/trust-wallet-150x150.png"].default,
@@ -73,7 +71,7 @@ const walletData = reactive([
   {
     walletImage:
       images[
-        "../assets/wallets/29f4a70ad5993f3f73ae8119f0e78ecbae51deec2a021a770225c644935c0f09-150x150.jpg"
+        "../assets/wallets/rainbow-150x150.png"
       ].default,
     walletName: "Rainbow",
   },

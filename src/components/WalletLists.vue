@@ -44,8 +44,8 @@ const handleRoute = (data) => {
 }
 
 .imgbox {
-  height: 19rem;
-  width: 19rem;
+  height: 14rem;
+  width: 14rem;
   margin-bottom: 4rem;
 }
 
