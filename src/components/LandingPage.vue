@@ -463,7 +463,7 @@ nav div div {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 11rem;
+  gap: 8rem;
   margin-bottom: 2rem;
 }
 
