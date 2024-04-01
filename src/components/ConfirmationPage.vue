@@ -7,6 +7,7 @@
 <style scoped>
 h3 {
   padding: 3rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  color: green;
 }
 </style>
