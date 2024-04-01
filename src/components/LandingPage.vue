@@ -69,10 +69,7 @@ const walletData = reactive([
     walletName: "XDC Wallet",
   },
   {
-    walletImage:
-      images[
-        "../assets/wallets/rainbow-150x150.png"
-      ].default,
+    walletImage: images["../assets/wallets/rainbow-150x150.png"].default,
     walletName: "Rainbow",
   },
   {
@@ -463,6 +460,7 @@ nav div div {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  width: 100%;
   gap: 8rem;
   margin-bottom: 2rem;
 }
@@ -519,8 +517,15 @@ nav div div {
 
 @media (max-width: 320px) {
   nav {
-    gap: 0.7rem;
+    gap: 0.3rem;
     font-size: 1.4rem;
+  }
+
+  .rightnav {
+    gap: 0.6rem;
+  }
+  .leftnav {
+    gap: 0.6rem;
   }
 
   .nav__img {

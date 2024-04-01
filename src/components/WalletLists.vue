@@ -67,8 +67,8 @@ p {
 
 @media (max-width: 768px) {
   .imgbox {
-    height: 15rem;
-    width: 15rem;
+    height: 13rem;
+    width: 13rem;
   }
   p {
     font-size: 1.7rem;
@@ -81,8 +81,8 @@ p {
     width: 15rem;
   }
   .imgbox {
-    height: 12rem;
-    width: 12rem;
+    height: 11rem;
+    width: 11rem;
   }
 
   p {
