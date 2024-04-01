@@ -37,6 +37,7 @@ const handleRoute = (data) => {
 .box {
   height: 15rem;
   width: 15rem;
+  flex: 1 1 15rem;
   display: flex;
   flex-direction: column;
   margin-bottom: 3rem;
@@ -44,8 +45,8 @@ const handleRoute = (data) => {
 }
 
 .imgbox {
-  height: 14rem;
-  width: 14rem;
+  height: 13rem;
+  width: 13rem;
   margin-bottom: 4rem;
 }
 
