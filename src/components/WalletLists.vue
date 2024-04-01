@@ -35,9 +35,9 @@ const handleRoute = (data) => {
 
 <style scoped>
 .box {
-  height: 15rem;
-  width: 15rem;
-  flex: 1 1 15rem;
+  height: 14rem;
+  width: 14rem;
+  flex: 1 1 14rem;
   display: flex;
   flex-direction: column;
   margin-bottom: 3rem;
@@ -45,8 +45,8 @@ const handleRoute = (data) => {
 }
 
 .imgbox {
-  height: 13rem;
-  width: 13rem;
+  height: 12rem;
+  width: 12rem;
   margin-bottom: 4rem;
 }
 
@@ -68,38 +68,43 @@ p {
 @media (max-width: 768px) {
   .imgbox {
     height: 13rem;
-    width: 13rem;
+    width: 10rem;
   }
   p {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 }
 
 @media (max-width: 480px) {
   .box {
-    height: 15rem;
-    width: 15rem;
+    height: 13rem;
+    flex: 1 1 12rem;
+    width: 13rem;
   }
   .imgbox {
-    height: 11rem;
-    width: 11rem;
+    height: 10rem;
+    width: 10rem;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     max-width: 13rem;
-
   }
 }
 
 @media (max-width: 320px) {
   .box {
-    height: 12rem;
-    width: 12rem;
+    height: 10rem;
+    flex: 1 1 10rem;
+    width: 10rem;
   }
   .imgbox {
-    height: 8rem;
-    width: 8rem;
+    height: 7rem;
+    width: 7rem;
+  }
+
+  p {
+    font-size: 1.3rem;
   }
 }
 </style>

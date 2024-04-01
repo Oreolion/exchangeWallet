@@ -461,7 +461,7 @@ nav div div {
   align-items: center;
   justify-content: center;
   width: 100%;
-  gap: 8rem;
+  gap: 6rem;
   margin-bottom: 2rem;
 }
 
@@ -511,11 +511,17 @@ nav div div {
   }
 
   .box__container {
-    gap: 2rem;
+    gap: 1rem;
   }
 }
 
 @media (max-width: 320px) {
+
+    
+.nav__img {
+  height: 8rem;
+  width: 8rem;
+}
   nav {
     gap: 0.3rem;
     font-size: 1.4rem;
